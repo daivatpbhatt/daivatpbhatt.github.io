@@ -1,0 +1,127 @@
+/*table{
+	border-right: 4px solid #98a4b7;
+	border-left: 4px solid #98a4b7;
+}*/
+
+td, th{
+	border-bottom: 2px solid #607d8b;
+	color: black;
+	padding: 3%;
+}
+
+tr:hover {background-color: #f5f5f5}
+
+th{
+	background-color: #26a69a;
+	color: white;
+	font-family: 'Spectral', serif;
+}
+
+td{
+	background-color: #9E9E9E;
+	font-family: 'Oxygen', sans-serif
+}
+
+
+h2{
+	color: #ffc107;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	text-underline-position: 10%;
+	font-family: 'Cinzel', serif;
+	text-align: center;
+}
+
+.marks_12 .t12{
+	border-collapse: collapse;
+	vertical-align: middle;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+}
+
+.marks_10 .t10{
+	border-collapse: collapse;
+	vertical-align: middle;
+	text-align: center;
+	width: 30%;
+	margin: auto;
+}
+
+
+.marks_jee .tjee{
+	border-collapse: collapse;
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+	width: 40%;
+	color: white;
+}
+
+
+
+
+.container-fluid{
+	padding: 5%;
+	background-color:#e0e0e0;
+}
+
+
+.container-fluid .school_marks_main{
+	background-color: #5f87cc;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+.container-fluid .row .marks_12_main{
+	margin: 2%;
+	padding-bottom: 2.5%;
+	border-bottom: 1px solid #80cbc4;
+}
+
+.container-fluid .row .marks_12{
+	text-align: center;
+	
+}
+
+
+.container-fluid .marks_12_main .table_heading{
+	text-align: center;
+}
+
+.container-fluid .row .marks_jee_main{
+	margin: 2%;
+	padding-bottom: 2.5%;
+	border-bottom: 1px solid #80cbc4;
+	
+}
+.t12 td:nth-child(1){width:500px;} 
+
+.container-fluid .row .marks_jee{
+	text-align: center;
+}
+
+.container-fluid .marks_jee_main .table_heading{
+	text-align: center;
+}
+
+
+.container-fluid .row .marks_10_main{
+	margin: 2%;
+}
+
+.container-fluid .row .marks_10{
+	text-align: center;
+}
+
+.container-fluid .marks_10_main .table_heading{
+	text-align: center;
+}
+
+.t10 td:nth-child(1){width: 150px;}
+
+
+

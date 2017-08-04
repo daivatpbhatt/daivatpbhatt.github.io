@@ -1,0 +1,154 @@
+@media only screen and (max-width: 992px)
+{
+.container-fluid {
+    width: 80% !important;
+    margin-top: 0px !important;
+}
+
+.container-fluid .row{
+	width: 100%;
+	margin: auto;
+}
+
+.col-s-12{
+	width: 100%;
+}
+
+.sidebar{
+	width: 100%;
+	margin: auto;
+	float: left;
+}
+
+.academics{
+	width: 5%;
+	margin: auto;
+	float: left;
+}
+}
+
+@media only screen and (max-width: 1112px){
+
+.container-fluid{
+	margin:auto;
+}
+.academics{
+	width: 100%;
+}
+
+.sidebar{
+	width: 100%;
+}
+
+.sidebar .icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px;
+}
+
+.academics .icon{
+	text-align: center;
+}
+
+.academics h2{
+	text-align: center;
+}
+
+.academics .interest .interest_details{
+	text-align: center;
+}
+
+.academics .profile .profile_details{
+	text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 1000px)
+{
+.sidebar .detail_text {
+    padding: 0 20px;
+}
+
+.sidebar {
+	text-align: center;
+}
+
+ .sidebar .info span {
+    text-align: center;
+}
+}
+
+@media only screen and (min-width: 601px)
+{
+	.col-s-12{
+		width: 100%;
+	}
+
+	.container-fluid .row{
+		width: 100%;
+		margin: 0%;
+		padding: 0%;
+		border: 0%;
+	}
+
+	.sidebar{
+		width: 70%;
+		margin: auto;
+		float: left;
+	}
+
+	.academics{
+		width: 70%;
+		margin: auto;
+		float: left;
+	}
+}
+
+ @media only screen and (min-width:960px){
+    }
+@media only screen and (min-width:1440px){
+
+    /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width:2000px){
+   
+}
+@media only screen and (max-device-width:480px){
+	.col-s-12{
+		width: 100%;
+	}
+
+	.container .row{
+		width: 100%;
+		margin: auto;
+	}
+
+	.sidebar{
+		width: 40%;
+		margin: auto;
+	}
+
+	.sidebar .my_image{
+		width: 70%;
+		height: auto;
+	}
+
+	.academics{
+		width: 40%;
+		margin: auto;
+	}
+  
+}
+@media only screen and (device-width:768px){
+   
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  
+}
