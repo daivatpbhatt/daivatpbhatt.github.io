@@ -14,6 +14,11 @@
 	color: black;
 }
 
+.education a.institute_name{
+	color: #767270;
+}
+
+
 .project a{
 	color: black;
 }
@@ -303,7 +308,7 @@
 	display: block;
 	color: black;
 	opacity: 0.4;
-	font-size: x-small;
+	font-size: small;
 }
 
 
