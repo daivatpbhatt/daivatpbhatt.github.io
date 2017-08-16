@@ -1,0 +1,66 @@
+.container-fluid {
+	/*background-color: #aeb5c1;*/
+	width: 100%;
+	margin:0 auto;
+	padding: 5%;
+}
+
+
+.container-fluid .row{
+	
+}
+
+
+.projects .semesters{
+	background-color: #455A64;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 2%;
+	width:90%;
+	margin:auto;
+	margin-bottom: 8%;
+}
+
+.projects .semesters .project{
+	background-color: #455A64;
+	color: #f0ffff;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-bottom: 1px solid #bdbdbd;
+	margin-top: 2%;
+    padding-bottom: 2% !important;
+}
+
+
+.projects h3{
+	font-family: 'Cinzel', serif;
+	align-items: center;
+	color: #ec971f;
+	justify-content: center;
+	display: flex;
+}
+
+.projects h3:hover{
+	text-decoration: underline;
+}
+
+.projects h5{
+	font-family: 'Ubuntu', sans-serif;
+	color: #009688;
+}
+
+.projects h6{
+	font-family: 'Artifika', serif;
+	color: #bdbdbd;
+	margin-top: 0px;
+    font-size: 11pt;
+    line-height: 15pt;
+}
+
+.projects .semesters .project a{
+	color: #ffeb3b;
+}
+
+.projects .semesters .project span{
+	color: #ffeb3b;
+}
