@@ -5,6 +5,35 @@
     box-sizing: border-box;
 }
 
+a:link, a:visited, a:active {
+    color: #80cbc4; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+
+a.institute_name:link, a.institute_name:visited, a.institute_name:active {
+    color: #4caf50; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+/*a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+*/
+a:hover {
+    text-decoration: underline;
+}
+/*
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 
 .sidebar a{
 	color: white;
@@ -37,7 +66,6 @@
 }
 /*FOR ENTIRE PAGE*/
 .container-fluid {
-	/*background-color: #aeb5c1;*/
 	padding: 1rem 1.5rem;
     margin-top: 0%;
     max-width: 1280px;
@@ -140,8 +168,13 @@
 
 .sidebar .professional_skills{
 	margin-top: 10%;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #4f4f51;
 }
 
+.sidebar .achievements{
+	margin-top: 10%;
+}
 
 
 .progress{
@@ -152,7 +185,7 @@
     background-color: #acece6;
     border-radius: 2px;
     margin: 0.5rem 0rem 1rem 0;
-    margin-bottom: 11%;
+    margin-bottom: 6%;
     overflow: visible;
 }
 
@@ -363,10 +396,29 @@
 	font-size: large;
 }
 
+.sidebar .achievements span.achievement_title{
+	font-family: 'Acme', sans-serif;
+	font-size: large;
+	text-decoration: underline;
+}
+
+.sidebar .achievements span.achievement_detail{
+	font-family: 'Acme', sans-serif;	
+}
+
+.sidebar .achievements ul{
+	padding-left: 5%;
+}
+
+.sidebar .achievements li{
+	margin-bottom: 3%;
+}
+
 .sidebar span{
 	font-family: 'Vollkorn', serif;
 
 }
+
 
 .academics h2{
 	font-family: 'Ubuntu', sans-serif;
@@ -476,6 +528,7 @@
 }
 
 
+
 .profile ul{
 	padding: 0px;
 }
@@ -483,10 +536,9 @@
 .profile li{
 	list-style-type: none;
     display: inline-block;
-    width: 19%
+    width: 15%
 
 }
-
 
 
 .sidebar .info span{
